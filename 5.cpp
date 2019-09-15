@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -12,7 +11,7 @@ int main() {
 	
 	while (cin>>line) {
 		for (int i = 0; i < line; ++i) {
-			scanf("%d%d",weight+i,score+i);
+			cin >> weight[i] >> score[i];
 		}
 		int maxWeight;
 		cin >> maxWeight;
