@@ -2,14 +2,15 @@
 #include<vector>
 #include<algorithm>
 #include<string>
+#include<cstring>
 #include<queue>
 using namespace std;
 
 
 int main() {
 	int n;
+	int p[10000];
 	while (cin >> n) {
-		int* p = new int[n];
 		memset(p, 0x7F, n * sizeof(int));
 		for (int i = 0; i < 8; ++i) {
 			for (int j = 0; j < n; ++j) {
