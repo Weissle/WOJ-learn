@@ -11,15 +11,7 @@
 #include<unordered_map>
 using namespace std;
 
-int func(int n) {
-	int answer = 1;
-	while (n != 1) {
-		if (n % 2) n = 3 * n + 1;
-		else n /= 2;
-		answer++;
-	}
-	return answer;
-}
+
 int main() {
 	long long p[35];
 	int n, m,k;
